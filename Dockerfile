@@ -1,5 +1,5 @@
 ##
-# geographica/pycsw
+# geographica/pycsw:2.0-dev
 #
 # This creates an Ubuntu derived base image that installs PyCSW.
 #
