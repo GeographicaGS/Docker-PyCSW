@@ -33,3 +33,6 @@ ADD ./install_pycsw.sh /tmp/
 RUN sh /tmp/install_pycsw.sh
 
 EXPOSE 8000
+
+# Output version.
+CMD pip show pycsw

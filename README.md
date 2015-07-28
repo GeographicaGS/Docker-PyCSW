@@ -6,7 +6,7 @@ PyCSW Docker image.
 Build image and run container (cloning this Git repository):
 
 ```bash
-$ docker build -t geographica/pycsw:testing .
+$ docker build -t geographica/pycsw:2.0-dev .
 $ docker run --name pycsw -p 8086:8000 -it --rm geographica/pycsw:2.0-dev python /var/www/pycsw/csw.wsgi
 ```
 Testing with a GetCapabilities request:
